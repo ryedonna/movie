@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    background-color: #2e3133;
+    /*background-image: url(images/background.png);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#jumbo {
+    /* IE8 and below */
+    background: rgb(245, 173, 241);
+    /* all other browsers */
+    background: rgba(231, 150, 227, 0.5);
+}
+
+#white {
+    background: rgb(255, 255, 255);
+}
+
+
+/*
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 0.1px solid;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    border-radius: 25px;
+    /* For IE8 and earlier 
+}*/
+
+div.transbox {
+    margin: 5%;
+    color: #000000;
+    border-radius: 25px;
+}
